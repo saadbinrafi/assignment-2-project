@@ -1,0 +1,45 @@
+/* mooile version start hear  */
+
+@media screen and ( max-width: 576px){
+    .nav-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .item-conteiner{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .input-text-conteiner{
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    .text-conteiner h1{
+        font-size: 30px;
+    }
+
+}
+
+/* tab version start hear   */
+
+@media screen and ( min-width: 650px)and(max-width:960px){
+
+    .nav-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-text-conteiner{
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+    .text-conteiner h1{
+        font-size: 40px;
+    }
+
+
+}
+
+
